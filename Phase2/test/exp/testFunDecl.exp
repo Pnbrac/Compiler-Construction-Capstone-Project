@@ -1,0 +1,44 @@
+program
+  declList
+    declList
+      declList
+        decl
+          funDecl
+            funcTypeName
+              typeSpecifier,int
+              identifier,main
+            funBody
+      decl
+        funDecl
+          funcTypeName
+            typeSpecifier,char
+            identifier,main2
+          formalDeclList
+            formalDecl
+              typeSpecifier,int
+              identifier,arg1
+          funBody
+    decl
+      funDecl
+        funcTypeName
+          typeSpecifier,void
+          identifier,main3
+        formalDeclList
+          formalDecl
+            typeSpecifier,void
+            identifier,arg1
+          formalDeclList
+            formalDecl
+              typeSpecifier,char
+              identifier,arg2
+              arrayDecl
+        funBody
+
+
+SYMBOL TABLE:
+36: char :main2()
+37: void :main3()
+242: int :main()
+560: void main3:arg1
+561: char main3:arg2[]
+639: int main2:arg1

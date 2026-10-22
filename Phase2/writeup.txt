@@ -1,0 +1,44 @@
+1. Raymond Nava & Parker Bracamontez | CS.4318 Compiler Construction
+---------------------------------------------------------------------
+2. Contributions:
+- [x] writeup.txt creation - Raymond Nava
+
+parser.y - Raymond Nava
+    - grammar all - Raymond Nava
+    - reduce conflicts
+
+tree.c - Parker Bracamontez
+    - makeTree() implementation
+    - makeTreeWithVal() implementation
+    - addChild() implementation
+    - printAst() implementation
+    - enumeration of the different kinds of nodes to help with printAst()
+    - added helper methods to help with determining different operations according to addOp, mulOp, and relOp
+
+strtab.c - Parker Bracamontez
+    - ST_insert() implementation
+    - ST_lookup() implementation
+
+test/exp - Parker Bracamontez
+    - converted all indent from 4 spaces to 2 spaces to align with README and make everything easier.
+
+---------------------------------------------------------------------
+3. 2 Examples of how we tested the code:
+
+1: created testExtraWhileLocal.mC
+    - tested to have void main with a local int variable x
+      as well as a while that uses int x.
+--------------------------------------------
+
+--------------------------------------------
+
+2: created testExtraCompundIf.mC
+    - tested to have a void main with local int variable a,
+      an inner if statement with relational (a == 1;),
+      with no else statement
+--------------------------------------------
+
+--------------------------------------------
+
+4. Other
+MakeFile - "removed -lfl" due to compile on macOS

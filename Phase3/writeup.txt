@@ -1,0 +1,44 @@
+1. Raymond Nava & Parker Bracamontez | CS.4318 Compiler Construction
+---------------------------------------------------------------------
+2. Contributions:
+
+writeup.txt creation - Parker Bracamontez
+
+parser.y - Parker Bracamontez
+    - production rules
+    - helper functions
+
+strtab.c - Parker Bracamontez
+    - helper functions
+    - functions defined in strtab.h minus symTab & ast
+
+scanner.l - Raymond Nava
+    - whitespace regex fix
+
+strtab.c - Raymond Nava
+    - symTab()
+    - ast()
+
+test/exp - Raymond Nava
+    - testMulDeclLocalVars.mC
+    - testClean.mC
+
+---------------------------------------------------------------------
+3. 2 Examples of how we tested the code:
+
+1: testMulDeclLocalVars.mC
+--------------------------------------------
+Tests having multiple variables being 
+declared within the same local function
+--------------------------------------------
+
+2: testClean.mC
+--------------------------------------------
+Tests how if everything is done properly,
+"Compilation finished." should display only 
+and then move on.
+--------------------------------------------
+
+4. Other
+MakeFile - "removed -lfl" due to compile on macOS
+MakeFile - "replaced -lfl" due to compile on Linux

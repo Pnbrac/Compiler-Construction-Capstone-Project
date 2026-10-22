@@ -1,0 +1,55 @@
+Raymond Nava & Parker Bracamontez | CS.4318 Compiler Construction
+---------------------------------------------------------------------
+Contributions:
+writeup.txt creation - Raymond Nava
+readme.md - Raymond Nava
+driver.c - "OPER_AT" - Parker Bracamontez
+scanner.l
+    "keywords" - Raymond Nava
+    "operators" - Raymond Nava
+    "brackets & parens" - Parker Bracamontez
+    "punctuation" - Parker Bracamontez
+    "{integerlead0}" - Parker Bracamontez
+    "{comments}" - Raymond Nava
+    "updateCol()" - Raymond Nava
+    "countLines()" - Raymond Nava
+    "processString()" - Parker Bracamontez
+test cases - Parker Bracamontez
+---------------------------------------------------------------------
+2 Examples of how we tested the code:
+
+1 - test4.txt:
+--------------------------------------------
++-*/=
+<>
+<=
+>=
+==
+!=
+@++--
+%,;
+()
+{}
+[]
+||&&!
+if
+else
+while
+string
+int
+char
+return
+void
+--------------------------------------------
+
+2: Made test5.txt, which contained:
+--------------------------------------------
+int // This is a comment
+01
+0hi
+int /* This is also a 
+comment on multiple lines*/
+int /* This is a non terminated comment
+int
+int
+--------------------------------------------

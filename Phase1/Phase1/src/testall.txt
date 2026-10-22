@@ -1,0 +1,27 @@
+int int
+int
+int
+int int int
+Intmain
+" This \" is\\ an \t ok \n string"
+printf("Hello world! \t \n \\ \b ");
++-*/=
+<>
+<=
+>=
+==
+!=
+@++--
+%,;
+()
+{}
+[]
+||&&!
+if
+else
+while
+string
+int
+char
+return
+void

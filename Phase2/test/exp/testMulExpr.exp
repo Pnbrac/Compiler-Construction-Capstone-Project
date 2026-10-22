@@ -1,0 +1,60 @@
+program
+  declList
+    decl
+      funDecl
+        funcTypeName
+          typeSpecifier,void
+          identifier,main
+        funBody
+          localDeclList
+            varDecl
+              typeSpecifier,int
+              identifier,i
+          statementList
+            statement
+              assignStmt
+                expression
+                  addExpr
+                    term
+                      term
+                        factor
+                          var
+                            identifier,i
+                      mulop,*
+                      factor
+                        integer,3
+            statementList
+              statement
+                assignStmt
+                  expression
+                    addExpr
+                      term
+                        term
+                          factor
+                            integer,4
+                        mulop,/
+                        factor
+                          var
+                            identifier,i
+              statementList
+                statement
+                  assignStmt
+                    expression
+                      addExpr
+                        term
+                          term
+                            term
+                              factor
+                                integer,7
+                            mulop,*
+                            factor
+                              var
+                                identifier,i
+                          mulop,/
+                          factor
+                            integer,12
+
+
+SYMBOL TABLE:
+91: int main:i
+242: void :main()

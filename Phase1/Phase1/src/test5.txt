@@ -1,0 +1,8 @@
+int // This is a comment
+01
+0hi
+int /* This is also a 
+comment on multiple lines*/
+int /* This is a non terminated comment
+int
+int

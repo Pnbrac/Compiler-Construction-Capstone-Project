@@ -1,0 +1,57 @@
+program
+  declList
+    decl
+      funDecl
+        funcTypeName
+          typeSpecifier,void
+          identifier,main
+        funBody
+          statementList
+            statement
+              assignStmt
+                expression
+                  addExpr
+                    term
+                      factor
+                        funcCallExpr
+                          identifier,main
+            statementList
+              statement
+                assignStmt
+                  expression
+                    addExpr
+                      term
+                        factor
+                          funcCallExpr
+                            identifier,main
+                            argList
+                              expression
+                                addExpr
+                                  term
+                                    factor
+                                      integer,1
+              statementList
+                statement
+                  assignStmt
+                    expression
+                      addExpr
+                        term
+                          factor
+                            funcCallExpr
+                              identifier,main
+                              argList
+                                argList
+                                  expression
+                                    addExpr
+                                      term
+                                        factor
+                                          integer,2
+                                expression
+                                  addExpr
+                                    term
+                                      factor
+                                        integer,3
+
+
+SYMBOL TABLE:
+242: void :main()
